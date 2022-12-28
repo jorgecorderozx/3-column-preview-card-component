@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Lexend Deca, "sans serif";
+    font-weight: 400;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+    padding: 3.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+}
+
+img {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: Big Shoulders Display, "sans serif";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 0.8rem 2.2rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: transparent;
+    color:hsl(0, 0%, 95%);
+}
+
+.orangeCard {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+
+}
+
+.orangeCard button {
+    color: hsl(31, 77%, 52%);
+}
+
+.blueCard {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.blueCard button {
+    color:hsl(184, 100%, 22%);
+}
+
+.darkBlueCard {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+.darkBlueCard button {
+    color: hsl(179, 100%, 13%);
+}
+
+@media (min-width:970px) {
+    .cardMainContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 950px;
+        margin: auto;
+        min-height: 100vh;
+    }
+    .orangeCard {
+        border-radius: 10px 0 0 10px;
+    }
+    .darkBlueCard {
+        border-radius: 0 10px 10px 0;
+    }
+
+    button {
+        margin-top: 4rem;
+    }
+    
+}
